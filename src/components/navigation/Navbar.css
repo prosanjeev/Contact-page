@@ -1,0 +1,18 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-container ul li:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+  }
+  
